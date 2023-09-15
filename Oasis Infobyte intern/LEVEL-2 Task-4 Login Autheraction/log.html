@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Login & SignUp Form</title>
+    <link rel="stylesheet" href="log.css" />
+</head>
+
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/tanoosh_kondu/"><img class="img" src="https://i.imgur.com/zSUAoNP.png" /></a>
+                <a href="http://www.linkedin.com/in/tanoosh-kondu"><img class="img" src="https://i.imgur.com/I67kNaP.png" /></a>
+                <a href="https://github.com/TanooshKondu"><img class="img" src="https://i.imgur.com/R7tymxN.png" /></a>
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <div>
+                    <input type="password" class="input-field" placeholder="Enter password" id="YourPassword" required>
+                    <div class="show"></div>
+                </div>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn" onclick="function1()">Log In</button>
+            </form>
+            <form id="signup" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <div>
+                    <input type="password" class="input-field" placeholder="Enter password" id="YourPassword1" required>
+                    <div class="show1"></div>
+                </div>
+                <input type="checkbox" class="check-box"><span>I agree to terms & conditions</span>
+                <button type="submit" class="submit-btn" onclick="function2()">Sign Up</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="log.js"></script>
+</body>
+
+</html>
